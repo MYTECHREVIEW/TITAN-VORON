@@ -77,3 +77,11 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
+[update_manager DynamicMacros]
+type = git_repo
+path = ~/DynamicMacros
+origin = https://github.com/3DCoded/DynamicMacros.git
+primary_branch = main
+is_system_service = False
+install_script = install.sh
+
